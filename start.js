@@ -23,4 +23,5 @@ apiRoute.post('/output', function(req, res) {
 
 
 apiRoute.listen((process.env.PORT || 8280), function() {
+	console.log("Server is up and listening...");
 });
