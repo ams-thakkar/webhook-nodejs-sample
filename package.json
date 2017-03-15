@@ -2,9 +2,9 @@
   "name": "webhook-nodejs-sample",
   "version": "1.0.0",
   "description": "Sample Webhook with node.js with API.ai",
-  "main": "index.js",
+  "main": "start.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node start.js"
   },
   "author": "Amrish Thakkar",
   "dependencies": {
