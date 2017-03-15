@@ -1,0 +1,6 @@
+{
+  "name": "Webhook-nodejs-sample",
+  "description": "Sample Webhook with nodejs for API.ai",
+  "repository": "https://github.com/ams-thakkar/webhook-nodejs-sample.git",
+  "keywords": ["api.ai", "natural language", "webhook"]
+}
