@@ -10,3 +10,17 @@ apiRoute.use(bodyParser.urlencoded({
 }));
 
 apiRoute.use(bodyParser.json());
+
+apiRoute.post('/output', function(req, res) {
+    var speech = req.body.result && req.body.result.parameters && req.body.result.parameters.apiAiText ? req.body.result.parameters.apiAiText : "Could not quite understand what you just said."
+    return res.json({
+        speech: speech,
+        displayText: speech,
+        source: 'webhook-nodejs-sample'
+    });
+});
+
+
+
+apiRoute.listen((process.env.PORT || 8280), function() {
+});
